@@ -1,0 +1,38 @@
+/* Rules Css */
+body{
+	background-color: #888;
+}
+.container{
+	width: 1170px;
+	margin: auto;
+}
+/* End Rules Css */
+
+/* Start Header */
+.header .slider{
+	background-color: #EEE;
+	height: 600px;
+}
+
+
+.header .navbar{
+	background-color: #252F31;
+	color: #FFF;
+	overflow: hidden;
+}
+
+.header .navbar h2{float: left;}
+.header .navbar h2 span{color: #2BA360;}
+
+.header .navbar ul {
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	float: right;
+}
+
+.header .navbar ul li{
+	float: left;
+	padding: 10px;
+}
+/* End Header */
