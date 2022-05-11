@@ -218,11 +218,39 @@ body{
 	padding-bottom: 30px;
 	overflow: hidden;
 }
-.my-education .experince,
 .my-education .education {
 	float: left;
-	width: 50%;
+    width: 37%;
 }
+.my-education .education h3 {color: #555;}
+.my-education p{
+	color: #9f9f9f;
+	line-height: 1.5;
+}
+.my-education .experince{
+	float: left;
+	width: 63%;
+}
+
+.my-education .experince .single-exp {
+	width: 56%;
+	padding-left: 7%;
+	padding-top: 6%;
+}
+.my-education .experince .single-exp h2{margin-bottom: 12px;}
+.my-education .experince .single-exp span{
+	color: #919191;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.my-education .experince .single-exp span:last-of-type{
+	background-color: #2ECC71;
+	display: inline-block;
+	padding: 4px 6px;
+	color: white;
+}
+
 /* End My Education*/
 
 /*Start Testemonials*/
