@@ -169,9 +169,6 @@ body{
 }
 
 .my-skills .skills button {
-	background: none;
-	border: 2px solid #2ECC71;
-	color: #2ECC71;
 	padding: 10px 38px;
 }
 
@@ -197,10 +194,22 @@ body{
 /*Start Resume*/
 .resume {
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 	background-color: #F2F2F1;
 	text-align: center;
 }
+
+.resume h2 {
+	text-transform: uppercase;
+}
+
+.resume p{
+	color: #9f9f9f;
+	line-height: 1.5;
+	padding:0px 176px;;
+}
+
+.resume button {padding: 10px 38px;}
 /*End Resume*/
 
 /*Start My Education*/
@@ -270,3 +279,10 @@ body{
 }
 /*end footer*/
 
+
+/*my css*/
+.my-button {
+	background: none;
+	border: 2px solid #2ECC71;
+	color: #2ECC71;
+}
