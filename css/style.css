@@ -98,30 +98,57 @@ body{
 	background-color: #F2F2F1;
 	overflow: hidden;
 }
-
 .about-me .image {
 	float: left;
 	width: 40%;
 }
-
 .about-me .image img {
 	width: 100%;
 }
-
 .about-me .info {
 	float: left;
 	width: 60%;
 }
-
+.about-me .info h2 {
+	margin: 62px 0px 20px 78px;
+}
+.about-me .info > p {
+	margin: 10px 0px 20px 78px;
+}
+.about-me .info > p:last-of-type {
+	margin: 40px 0px 36px 78px;
+}
+.about-me .info p {
+	color: #9f9f9f;
+	line-height: 1.5;
+}
 .about-me .info .hobbies{
 	overflow: hidden;
-	margin: 40px;
+	margin-left: 78px;
 }
-.about-me .info .hobbies > div {
+.about-me .info .hobbies .content {
 	width: 50%;
 	float: left;
 	min-height: 150px;
 }
+.about-me .info .hobbies .content h3 {color: #555;}
+
+.about-me .info .hobbies .content .icons{
+	float: left;
+	width: 12%;
+	margin-right: 5%;
+}
+.about-me .info .hobbies .content .icons img {
+	max-width: 100%;
+	margin: 20px 10px 0px 0px;
+}
+
+.about-me .info .hobbies .content .text {
+	width: 83%;
+	float: left;
+}
+
+
 
 /* End About Me*/
 
