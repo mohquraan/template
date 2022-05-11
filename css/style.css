@@ -12,7 +12,34 @@ body{
 /* Start Header */
 .header .slider{
 	background-color: #EEE;
-	height: 600px;
+	height: 875px;
+	background-image:url('../images/hero-bg.jpg');
+	-webkit-background-size: cover;/* css3 */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.header .slider .intro{
+	margin: 0px;
+	color: #fff;
+	text-align: center;
+	padding-top: 346px;
+}
+.header .slider .intro h2 {	
+	padding: 5px 0;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+	width: 742px;
+	font-size: 58px;
+	margin-left: 192px;
+	margin-top: 0px;
+}
+.header .slider .intro button {
+	color: #fff;
+	background: none;
+	border: 2px solid #fff;
+	padding: 10px 51px;
+	font-weight: bold;
 }
 .header .navbar{
 	background-color: #252F31;
@@ -30,6 +57,14 @@ body{
 .header .navbar ul li{
 	float: left;
 	padding: 10px;
+}
+.header .navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+	color: #298D57;
 }
 /* End Header */
 
