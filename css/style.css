@@ -72,14 +72,23 @@ body{
 
 .features{
 	overflow: hidden;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 46px;
+	padding-bottom: 60px;
 }
 .features .fit {
 	float: left;
 	width: 33.3333%;
-	background-color: #BBB;/*for layout*/
 	height: auto;
+}
+
+.features .fit h2 {
+	text-transform: uppercase;
+	color: #555;
+}
+.features .fit p {
+	color: #888;
+	line-height: 1.5;
+	padding-right: 10px;
 }
 
 /*End Features*/
