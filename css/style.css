@@ -132,7 +132,6 @@ body{
 	min-height: 150px;
 }
 .about-me .info .hobbies .content h3 {color: #555;}
-
 .about-me .info .hobbies .content .icons{
 	float: left;
 	width: 12%;
@@ -142,27 +141,57 @@ body{
 	max-width: 100%;
 	margin: 20px 10px 0px 0px;
 }
-
 .about-me .info .hobbies .content .text {
 	width: 83%;
 	float: left;
 }
-
-
-
 /* End About Me*/
 
 /* Start My-skills*/
 .my-skills {
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 	overflow: hidden;
 }
-.my-skills .skills,
+.my-skills .skills{
+	float: left;
+	width: 37%;
+}
 .my-skills .progress {
 	float: left;
-	width: 50%;
+	width: 40%;
+	margin-left: 5%;
 }
+
+.my-skills .skills p {
+	color: #9f9f9f;
+	line-height: 1.5;
+}
+
+.my-skills .skills button {
+	background: none;
+	border: 2px solid #2ECC71;
+	color: #2ECC71;
+	padding: 10px 38px;
+}
+
+.my-skills .progress .technique h3 {color: #555;}
+
+.my-skills .progress .technique div {
+	background-color: #f2f2f2;
+	height: 25px;
+}
+
+.my-skills .progress .technique div span {
+	background-color: #2ECC71;
+	height: 25px;
+	display: block;
+	line-height: 25px;
+	text-align: right;
+	color: #fff;
+	font-weight: bold;
+}
+
 /* End My-skills*/
 
 /*Start Resume*/
