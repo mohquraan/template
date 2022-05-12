@@ -291,13 +291,23 @@ body{
 /* Start portfolio */
 
 .portfolio {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	text-align: center;
+}
+
+.portfolio h2 {
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+.portfolio p {
+	color: #9f9f9f;
+	line-height: 1.5;
 }
 
 .portfolio .our-work {
 	overflow: hidden;
+	padding-top: 50px;
 }
 
 .portfolio .our-work > div {
